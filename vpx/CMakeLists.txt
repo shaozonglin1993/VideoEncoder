@@ -4,7 +4,7 @@ cmake_minimum_required (VERSION 3.12)
 project(vpxdemo)
 
 
-set(SRC test.cpp)
+set(SRC vpx_encoder.cpp)
 
 add_executable(VPXDemo ${SRC})
 

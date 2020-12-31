@@ -6,5 +6,5 @@ project(VEncoder)
 #添加src子目录
 add_subdirectory(vpx)
 add_subdirectory(x264)
-#add_subdirectory(x265)
+add_subdirectory(x265)
 

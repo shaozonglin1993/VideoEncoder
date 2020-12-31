@@ -4,7 +4,7 @@ cmake_minimum_required (VERSION 3.12)
 project(x264demo)
 
 
-set(SRC test.c)
+set(SRC x264_encoder.c)
 
 add_executable(x264Demo  ${SRC})
 
